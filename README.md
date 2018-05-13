@@ -1,4 +1,4 @@
-# AdOn Candle
+# Vue Syntax
 
 A simple Vue wrapper on email-validator, providing an easy way to validate email syntax
 
