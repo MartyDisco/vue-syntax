@@ -53,12 +53,12 @@ Vue.use(StandardError)
 
 ## Useage
 
-You can now use `$EmailValidator` in your `Vue` instances and components
+You can now use `$EmailValidator.validate()` in your `Vue` instances and components
 
 ```
 new Vue({
   created() {
-    this.$EmailValidator(emailAdress) // true / false
+    this.$EmailValidator.validate(emailAdress) // true / false
   }
 })
 ```
